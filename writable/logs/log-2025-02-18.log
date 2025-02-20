@@ -1,0 +1,77 @@
+CRITICAL - 2025-02-18 03:25:37 --> ErrorException: Undefined variable $route
+[Method: GET, Route: cards_controller/index.php]
+in APPPATH\Config\Routes.php on line 9.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'C:\\laragon\\www\\card-pal\\app\\Config\\Routes.php', 9)
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\laragon\\www\\card-pal\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\card-pal\\public\\index.php')
+CRITICAL - 2025-02-18 03:34:55 --> Error: Cannot call constructor
+[Method: POST, Route: distribute_cards]
+in APPPATH\Controllers\Cards.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Cards->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\card-pal\\public\\index.php')
+CRITICAL - 2025-02-18 03:35:12 --> Error: Cannot call constructor
+[Method: POST, Route: distribute_cards]
+in APPPATH\Controllers\Cards.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Cards->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\card-pal\\public\\index.php')
+CRITICAL - 2025-02-18 03:35:47 --> Error: Cannot call constructor
+[Method: POST, Route: distribute_cards]
+in APPPATH\Controllers\Cards.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Cards->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\card-pal\\public\\index.php')
+CRITICAL - 2025-02-18 03:37:29 --> ErrorException: Undefined array key 52
+[Method: POST, Route: distribute_cards]
+in APPPATH\Controllers\Cards.php on line 62.
+ 1 APPPATH\Controllers\Cards.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 52', 'C:\\laragon\\www\\card-pal\\app\\Controllers\\Cards.php', 62)
+ 2 APPPATH\Controllers\Cards.php(27): App\Controllers\Cards->distribute([...], '53', 0.0)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cards->distribute_cards()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cards))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\card-pal\\public\\index.php')
+CRITICAL - 2025-02-18 03:37:54 --> ErrorException: Undefined array key 52
+[Method: POST, Route: distribute_cards]
+in APPPATH\Controllers\Cards.php on line 62.
+ 1 APPPATH\Controllers\Cards.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 52', 'C:\\laragon\\www\\card-pal\\app\\Controllers\\Cards.php', 62)
+ 2 APPPATH\Controllers\Cards.php(27): App\Controllers\Cards->distribute([...], '53', 0.0)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cards->distribute_cards()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cards))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\card-pal\\public\\index.php')
+CRITICAL - 2025-02-18 04:01:00 --> ErrorException: Undefined variable $num_players
+[Method: POST, Route: distribute_cards]
+in APPPATH\Controllers\Cards.php on line 9.
+ 1 APPPATH\Controllers\Cards.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $num_players', 'C:\\laragon\\www\\card-pal\\app\\Controllers\\Cards.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cards->distribute_cards()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cards))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\card-pal\\public\\index.php')
